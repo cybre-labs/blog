@@ -1,5 +1,10 @@
-baseURL = "https://example.org/"
+baseURL = "https://blog.cyb.re/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "smol"
-
+title = "CYBRE blog"
+theme = "smol-mod"
+[menu]
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3

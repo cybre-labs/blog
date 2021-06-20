@@ -1,0 +1,166 @@
+/* Put your custom style modifications here: */
+/*
+| The mu framework v0.3.1
+| BafS 2016-2018
+*/
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace, Times, serif;
+  margin: 40px auto;
+  max-width: 1000px;
+  color: #222;
+  text-align: justify;
+}
+html {
+  background-color: #FFF;
+}
+h1, h2 > a, span {
+  color: #000;
+}
+
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#pagination {
+  margin-top: 30px;
+}
+
+.sidedbar h1, .sidedbar h2, .sidedbar h3, .sidedbar h4, .sidedbar h5 {
+  background-image:linear-gradient(90deg, black, black 3px, transparent 3px, transparent 100%);
+  color: #000;  
+  display: table;
+  /*font-family: Arial, sans-serif;*/
+  padding: 2px 8px 2px 8px;
+  border:0;
+}
+
+a:link, span, ul.tabs li a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover, a:hover > span{
+  color: #fff;
+  background-color: #000;
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  margin: 25px 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: left;
+  padding-bottom: 25px;
+
+}
+
+td, th, hr {
+  border-bottom: 1px solid #ddd;
+}
+
+/*button, select {
+  background: #fff;
+  border: 1px solid;
+  padding: 9px 20px;
+  font-size: 14px;
+}
+
+input, table {
+  font-size: 16px;
+}
+
+input, td, th {
+  padding: 5px;
+  vertical-align: bottom;
+}*/
+
+input {
+  border-style: solid; 
+  border-color: #000;
+  padding: 2px 5px;
+}
+
+code, pre {
+  border: #000;
+  color: #000;
+}
+
+pre {
+  padding: 8px;
+  white-space: pre-wrap;
+}
+
+textarea {
+  border-style: solid; 
+  border-color: #000;
+}
+
+/*
+| GRID
+*/
+.row {
+  display: block;
+  width: auto;
+  min-height: 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .c {
+  float: left;
+}
+
+table, .g2, .g3, .g3-2, .m2, .m3, .m3-2 {
+  width: 100%;
+}
+
+/*
+| Media queries
+| Responsive grid, mobile first
+*/
+@media (min-width: 768px) {
+  .g2 {
+    width: 50%;
+  }
+
+  .m2 {
+    margin-left: 50%;
+  }
+
+  .g3 {
+    width: 33.33%;
+  }
+
+  .g3-2 {
+    width: 66.66%;
+  }
+
+  .m3 {
+    margin-left: 33.33%;
+  }
+
+  .m3-2 {
+    margin-left: 66.66%;
+  }
+}
+
+
+*/
+

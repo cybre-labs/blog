@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  padding: 20px;
+}
+
 body {
   font-family: monospace, Times, serif;
   margin: 40px auto;
@@ -15,9 +19,11 @@ body {
   color: #222;
   text-align: justify;
 }
+
 html {
   background-color: #FFF;
 }
+
 h1, h2 > a, span {
   color: #000;
 }
@@ -93,15 +99,8 @@ input {
   padding: 2px 5px;
 }
 
-code, pre {
-  border: #000;
-  color: #000;
-}
 
-pre {
-  padding: 8px;
-  white-space: pre-wrap;
-}
+
 
 textarea {
   border-style: solid; 
@@ -161,6 +160,8 @@ table, .g2, .g3, .g3-2, .m2, .m3, .m3-2 {
   }
 }
 
-
-*/
+img, video {
+  max-height: 50vh;
+  display: block;
+}
 
